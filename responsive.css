@@ -6,8 +6,6 @@ body {
   font-family: Arial, sans-serif;
 }
 :root {
-  --bg: #9e00ad;
-  --text: #1e1e1e;
   --accent: #ff5a5f;
   --secondary: #2f7bdc;
   --muted: #2a2e55;
