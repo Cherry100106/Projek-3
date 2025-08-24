@@ -1,7 +1,7 @@
 body {
   margin: 0;
   height: 100vh;
-  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  background: url("backgroundgradient.jpg") center;
   color: white;
   font-family: Arial, sans-serif;
 }
@@ -41,8 +41,19 @@ a {
   height: 64px;
 }
 .brand {
-  font-weight: 800;
+  font-size: 2em;
+  color: white;
   letter-spacing: 0.5px;
+  background: url("2838.jpg") center;
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+  animation: animate 10s linear infinite;
+}
+@keyframes animate {
+  to {
+    background-position-x: -200px;
+  }
 }
 .nav a {
   margin-left: 20px;
